@@ -1,5 +1,72 @@
-*.dmb
-*.rsc
-*.int
-*.lk
-*.zip
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Editores de código e IDEs
+# ==========================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains / IntelliJ / WebStorm / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# ==========================================
+# Herramientas de Diagramado y Modelado UML
+# ==========================================
+# Draw.io / Diagrams.net (Archivos temporales de guardado)
+.~*.drawio.dtmp
+*.drawio.bkp
+
+# Enterprise Architect
+*.eap.ldb
+*.eapx.lock
+
+# StarUML / Visual Paradigm (Archivos temporales/caché)
+*.bak
+*.tmp
+*.log
+
+# PlantUML (Caché de renderizado)
+.plantuml/
+
+# ==========================================
+# Archivos de compilación, logs y temporales
+# ==========================================
+*.log
+*.tmp
+node_modules/
+dist/
+build/
+out/
+.env
+.env.local
